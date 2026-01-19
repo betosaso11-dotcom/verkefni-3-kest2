@@ -1,1 +1,106 @@
+🧪 Lab: Create a Partition in Windows
 
+📘 Cisco – Create a Partition in Windows
+
+🟦 Part 1 – Open Disk Management 💽
+
+❓ What is Disk Management?
+➡️ Disk Management is a Windows utility that allows you to manage disk drives installed in the computer, such as internal and external hard drives and USB flash drives.
+
+❓ How do you open Disk Management?
+➡️ Right-click the Start button and select Disk Management.
+
+🟦 Part 2 – Create free space 📦
+
+❓ What should be done if the hard drive does not have at least 2 GB of unallocated space?
+➡️ The size of an existing partition must be reduced to create free space.
+
+❓ What steps were performed?
+➡️ Right-click the C: drive
+➡️ Select Shrink Volume
+➡️ Enter 2048 MB
+➡️ About 2 GB of unallocated space was created
+
+🟦 Part 3 – Create a new volume 🆕
+
+❓ What type of volume was created?
+➡️ A New Simple Volume was created.
+
+❓ How was the volume configured?
+➡️ Size: 2048 MB
+➡️ Drive letter: I:
+➡️ File system: FAT32
+
+✅ Result:
+➡️ The NEW VOLUME (I:) was successfully created and is ready for use.
+
+🟦 Part 4 – NEW VOLUME (I:) Properties 🔍
+
+❓ What type of file system is used on the NEW VOLUME (I:)?
+➡️ FAT32
+
+❓ How much free space is shown?
+➡️ Approximately 2 GB (2048 MB)
+
+❓ What tabs are found in the NEW VOLUME (I:) Properties window?
+➡️ General
+➡️ Tools
+➡️ Hardware
+➡️ Sharing
+➡️ Security
+➡️ Previous Versions
+
+✏️ Change made:
+➡️ The volume was renamed from NEW VOLUME to ITE
+
+🟦 Part 5 – Create a text document 📝
+
+❓ What was done in this part?
+➡️ A text file named ITE Test Document was created on the ITE (I:) drive.
+
+❓ What tabs are listed in the ITE Test Document Properties window (before NTFS)?
+➡️ General
+➡️ Security
+➡️ Details
+
+🟦 Part 6 – Convert FAT32 to NTFS 🔄
+
+❓ How was the file system converted without losing data?
+➡️ By running Command Prompt as administrator and using the command:
+➡️ convert I: /fs:NTFS
+
+❓ What happens if Command Prompt is not run as administrator?
+➡️ The command fails because administrator privileges are required to modify the file system.
+
+🟦 Part 7 – ITE (I:) Properties after NTFS conversion 🧷
+
+❓ What type of file system is now used on the ITE (I:) drive?
+➡️ NTFS
+
+❓ What tabs are found in the ITE (I:) Properties window?
+➡️ General
+➡️ Tools
+➡️ Hardware
+➡️ Sharing
+➡️ Security
+➡️ Previous Versions
+➡️ Quota
+
+❓ When the volume was FAT32, there were six tabs. Which new tabs were added after converting to NTFS?
+➡️ Security
+➡️ Quota
+
+🟦 Part 8 – ITE Test Document Properties (after NTFS) 📄
+
+❓ What tabs are listed in the ITE Test Document Properties window now?
+➡️ General
+➡️ Security
+➡️ Details
+
+❓ When the volume was FAT32, there were three tabs. What is the new tab added after NTFS conversion?
+➡️ Security
+
+🟦 Reflection Question 💡
+
+❓ Why is there an additional “Security” tab in the properties window of documents stored on an NTFS volume?
+➡️ Because NTFS supports file-level security, allowing permissions and access control for users and groups, which FAT32 does not support.
