@@ -1,0 +1,118 @@
+🧩 Part 1: Applications tab
+
+❓ What happened?
+👉 The web browser closed immediately 🛑. Any unsaved data was lost because the application was forcefully terminated using Task Manager ⚡.
+
+❓ What options are available?
+✔ Switch to 🔁
+✔ End task ❌
+✔ Run new task ▶️
+✔ Always on top 📌 (depending on Windows version)
+
+⚙️ Part 2: Services tab
+
+❓ What statuses are listed?
+🔹 Running ▶️
+🔹 Stopped ⏹️
+
+❓ What actions can be taken?
+▶ Start 🚀
+⏹ Stop 🛑
+🔁 Restart
+📂 Open Services
+🌐 Search online
+
+📊 Part 3: Performance tab
+🖥️ CPU
+
+❓ What is the current utilization of the CPU?
+👉 CPU usage typically ranges between 5% and 25% on a VirtualBox virtual machine while idle ⚙️📉.
+
+❓ How many Threads are currently running?
+👉 Several thousand threads are running 🧵, depending on the VM configuration.
+
+❓ How many processes are running?
+
+Apps 📱: Depends on what is open
+
+Background processes ⚙️: Many system and VirtualBox-related processes
+
+Windows processes 🪟: Several essential system services
+
+🧠 Memory
+
+❓ Total physical memory (MB)?
+👉 The total memory equals the amount assigned to the VM, for example 4096 MB (4 GB) 🧠💾.
+
+❓ Available physical memory (MB)?
+👉 Around 1500–2500 MB, depending on usage 📊.
+
+❓ How much memory is being used?
+👉 Used memory = Total memory − Available memory ➖
+
+🌐 Ethernet
+
+❓ Link speed & adapter type?
+👉 Link speed is usually 1.0 Gbps ⚡.
+👉 Adapter: VirtualBox Host-Only or NAT Ethernet Adapter 🧩.
+
+❓ Connection type?
+👉 Ethernet (VirtualBox virtual network) 🔌.
+
+❓ IPv4 address?
+👉 A private address such as 192.168.56.xxx or 10.0.2.xxx 🌍.
+
+🧮 Part 4: Processes tab
+
+❓ What happens when clicking the Memory heading twice?
+👉 Processes are sorted by memory usage, from lowest to highest and vice versa 🔼🔽.
+
+❓ What happens when Memory is shown in Percents?
+👉 Memory usage is displayed as a percentage instead of MB 📊%.
+
+❓ How is this useful?
+👉 It helps quickly identify processes that consume the most memory 🔍🔥.
+
+❓ What categories are listed?
+📁 Apps
+📁 Background processes
+📁 Windows processes
+
+👤 Part 5: Users tab
+
+❓ What options are available?
+✔ Expand ➕
+✔ Disconnect 🔌
+✔ Sign off 🚪
+✔ Manage user accounts 👥
+
+🚀 Part 6: Startup, App history & Details
+🔄 Startup tab
+
+❓ Available options:
+✔ Enable ✅
+✔ Disable ❌
+✔ Open file location 📂
+✔ Search online 🌐
+✔ Properties ⚙️
+
+📈 App history tab
+
+❓ What information is shown?
+👉 Historical usage of CPU time, network usage, and app resource consumption 📊📶.
+
+🧾 Details tab
+
+❓ Available options:
+✔ End task ❌
+✔ End process tree 🌳
+✔ Set priority ⭐
+✔ Set affinity 🧠
+✔ Analyze wait chain ⏳
+✔ Open file location 📂
+✔ Properties ⚙️
+
+🧠✨ Reflection Question
+
+Why is it important for an administrator to understand Task Manager?
+👉 Because Task Manager allows administrators to monitor performance 📊, manage processes ⚙️, troubleshoot issues 🛠️, and maintain system stability
