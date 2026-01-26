@@ -1,0 +1,128 @@
+🧩 Part 1: Explore File Explorer
+❓ What happened with Folder1 and Folder2 on the Desktop?
+
+👉 Folder2 disappeared from the Desktop and is now located inside Folder1 📂➡️📂.
+Folder1 remains visible on the Desktop, containing Folder2 inside it.
+
+❓ What is the file extension for the text document?
+
+👉 The file extension is .txt 📝.
+
+❓ How would you make a copy of the text document and place it in Folder2?
+
+👉 Right-click the text document ➜ select Copy 📋 ➜ open Folder2 ➜ right-click ➜ Paste 📌.
+Alternatively, you can use Ctrl + C and Ctrl + V ⌨️.
+
+❓ What are the attributes associated with this file?
+
+👉 Common file attributes include:
+
+1.File name 🏷️
+
+2.File type (.txt)
+
+3.File size 💾
+
+4.Date created 📅
+
+5.Date modified ⏱️
+
+Read-only status 🔒 (if enabled)
+
+❓ What is the complete path to Folder3?
+
+👉 Example path inside a VirtualBox Windows VM:
+C:\Users\Student\Desktop\Folder1\Folder2\Folder3 📍
+(Username may vary depending on the VM)
+
+❓ Which directories are listed under Quick access?
+
+👉 Typical Quick access folders include:
+
+1.Desktop 🖥️
+
+2.Downloads ⬇️
+
+3.Documents 📄
+
+4.Pictures 🖼️
+
+5.This PC 💻
+
+❓ What happened when you dragged Folder1 to Quick access? Why do this?
+
+👉 Folder1 was pinned to Quick access 📌.
+This allows faster access to frequently used folders without navigating through directories 🚀.
+
+❓ What folders are listed in Local Disk (C:)?
+
+👉 Common folders include:
+
+1.Program Files
+
+2.Program Files (x86)
+
+3.Users 👥
+
+4.Windows 🪟
+
+5.PerfLogs (if present)
+
+❓ List all folders in the Users directory.
+
+👉 Typical folders are:
+
+Default
+
+Public 🌍
+
+Student (or the VM username)
+
+❓ Were you able to open your user folder? Explain.
+
+👉 Yes ✅.
+The folder opened successfully because the user has permission to access their own directory 🔓.
+
+❓ Were you able to open another user’s folder? Explain.
+
+👉 No (or limited access) ❌.
+Access is restricted due to user permissions, unless logged in as an administrator 🛡️.
+
+❓ Open the Public folder. List all folders inside.
+
+👉 Common Public folders include:
+
+1.Public Desktop
+
+2.Public Documents
+
+3.Public Downloads
+
+4.Public Music 🎵
+
+5.Public Pictures 🖼️
+
+6.Public Videos 🎬
+
+🧠 Part 2: Windows Libraries
+❓ Which folders are listed under Libraries?
+
+👉 Default Libraries include:
+
+1.Documents 📄
+
+2.Music 🎵
+
+3.Pictures 🖼️
+
+4.Videos 🎥
+
+❓ How would you remove Folder1 from the library without deleting it?
+
+👉 Open the library ➜ click Manage library ⚙️ ➜ select Folder1 ➜ click Remove ➖.
+This removes the folder from the library only, not from the computer 💡.
+
+(Windows 11 method)
+
+👉 Right-click the library ➜ Properties ➜ select Folder1 ➜ click Remove ➖ ➜ OK ✅.
+Folder1 and its contents remain safely on the Desktop.
