@@ -1,0 +1,82 @@
+Part 1: Control Panel Views
+
+Question: What are the viewing options?
+👉 View by: Category, Large icons, Small icons
+
+Question: Name a few of the Control Panel categories.
+👉 System and Security
+👉 User Accounts
+👉 Network and Internet
+👉 Hardware and Sound
+👉 Ease of Access
+
+Part 2: System and Security
+
+Question: Which subcategory would help you troubleshoot common problems?
+👉 Security and Maintenance
+
+Question: Which subcategory allow a program through Windows Firewall?
+👉 Windows Defender Firewall
+🌐 Part 3: Network and Internet
+
+Q: Which subcategory allows you to view the basic network information and set up connections?
+👉 Network and Sharing Center
+
+🖨️🔊 Part 4: Hardware and Sound
+
+Q: Which subcategory allows you to choose what happens when you insert a media or device?
+👉 AutoPlay
+
+Q: Which subcategory allows you to add a printer?
+👉 Devices and Printers
+
+📦 Part 5: Programs
+
+Q: Which subcategory would you use to have a specific file type always open in a specified program?
+👉 Default Programs
+
+Q: Which subcategory would you use to uninstall a program?
+👉 Programs and Features
+
+Q: Which subcategory would you use to install the Windows telnet client?
+👉 Programs and Features → Turn Windows features on or off
+
+👤 Part 6: User Accounts
+
+Q: Which subcategory would you use change the account type from administrator to standard?
+👉 User Accounts
+
+Q: Which subcategory would you use to view, edit, or remove the web and Windows credentials?
+👉 Credential Manager
+
+🎨 Part 7: Appearance and Personalization
+
+Q: Which subcategory would you use to customize the Taskbar?
+👉 Taskbar and Navigation
+
+Q: Which subcategory would you use to show hidden files and folders?
+👉 File Explorer Options
+
+Q: Which subcategory would you use to show extensions for known file types?
+👉 File Explorer Options
+
+⏰🌍 Part 8: Clock and Region
+
+Q: Which subcategory would you use to change the time zone?
+👉 Date and Time
+
+Q: Which subcategory would you use to change date format?
+👉 Region
+
+Q: Which subcategory would you use to synchronize the time on a computer with a specific web server on the Internet?
+👉 Date and Time → Internet Time
+
+♿ Part 9: Ease of Access
+
+Q: Which subcategory would you use to configure the computer to read aloud any text on the screen?
+👉 Narrator
+
+Q: Which subcategory would you use to improve the computer’s ability to understand your voice and improve the dictation accuracy?
+👉 Speech Recognition
+
+
