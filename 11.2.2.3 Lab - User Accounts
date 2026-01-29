@@ -1,1 +1,26 @@
+Question (Part 2):
 
+What is the advantage of having most users work within a Standard user account? 👤🔒
+
+Answer:
+The advantage of having most users work within a Standard user account is improved system security 🔐. Standard users are limited in what changes they can make to the system, which helps prevent malware installation 🦠 and accidental damage to system settings ⚙️.
+
+Question (Part 3):
+
+For this lab, select Delete Files. What are the other options? When would you choose the other options? 🗑️📁
+
+Answer:
+The other option is Keep Files 📂. This option would be chosen when the user account is no longer needed ❌👤, but the user’s personal files must be preserved for backup 💾, auditing 📊, or transfer to another user 🔁.
+
+Reflection Questions 🧠✨
+1. Why is it important to protect all accounts with strong passwords? 🔑
+
+Strong passwords help protect accounts from unauthorized access 🚫, data breaches 📉, and malicious attacks 🛡️.
+
+2. Why would you create a user with Standard privileges? 👥
+
+A user with Standard privileges is created to limit access to system-level settings ⚙️ and reduce the risk of accidental or harmful changes to the operating system 💻❗.
+
+3. In what type of situation would an IT administrator delete a user account and choose to keep the files instead of deleting them? 🧑‍💼📁
+
+An IT administrator would do this when an employee leaves an organization 🚪 and the files need to be retained for business continuity 🔄 or transferred to another employee 📤.
