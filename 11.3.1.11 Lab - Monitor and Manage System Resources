@@ -1,0 +1,28 @@
+🧩 11.3.1.11 Lab – Monitor and Manage System Resources
+Part 2: Explore the Impact of Services
+🖨️ Step 1: Verify printing service
+
+Recorded printer:
+A default printer such as Microsoft Print to PDF was listed in the Print dialog box in Notepad.
+
+🛑 Step 2: Stop Print Spooler
+
+Question: What message did you receive? How would you fix this?
+Answer:
+After stopping the Print Spooler service, an error message appeared indicating that Windows could not complete the print operation because the printer service was not running.
+To fix this issue, the Print Spooler service must be restarted from the Services console.
+
+▶️ Step 3: Restart Print Spooler
+
+Result:
+After restarting the Print Spooler service, printing functionality was restored and printers became available again.
+
+🌐 Step 4: Explore DHCP Client service
+
+Question: When DHCP Client stops, what other services will also be stopped?
+Answer:
+When attempting to stop the DHCP Client service, Windows displayed a warning indicating that other dependent services, such as Network Location Awareness, would also be affected.
+
+Question: Why is it important to exercise care when managing services?
+Answer:
+It is important to exercise care when managing services because stopping essential services can disrupt system functionality, network connectivity, and cause applications or features to stop working.
