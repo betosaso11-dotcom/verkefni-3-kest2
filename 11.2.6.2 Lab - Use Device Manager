@@ -1,1 +1,47 @@
+🧩 Lab – Use Device Manager (Using VirtualBox)
+❓ What information is listed in the Device Manager window? Why would you use it?
 
+Answer:
+In the VirtualBox Windows virtual machine, the Device Manager window lists all virtual hardware devices installed on the system, such as virtual network adapters, display adapters, keyboards, and storage controllers.
+It is used to check device status, troubleshoot hardware issues, and manage or update drivers inside the virtual machine. 🖥️🔍
+
+❓ How would you install driver software for an older device that may not be automatically recognized by Windows?
+
+Answer:
+In VirtualBox, you can install the driver manually by opening Device Manager, clicking Action → Add legacy hardware, or by right-clicking the device and selecting Update driver.
+You can then browse the virtual machine’s local storage or mounted ISO to install the driver software. 💿⚙️
+
+🖥️ Step 2 – Display the monitor settings (VirtualBox)
+❓ What additional information does Driver Details provide?
+
+Answer:
+Driver Details shows information about the virtual display driver used by VirtualBox, including driver file names, locations, and system components responsible for handling the virtual monitor. 📄🖥️
+
+❓ What two options do you have for updating the driver?
+
+Answer:
+
+Search automatically for updated driver software
+
+Browse my computer for driver software
+
+These options allow Windows in VirtualBox to search online or use drivers installed locally in the virtual machine. 🌐🛠️
+
+❓ What does the Roll Back Driver button do? Why could it be grayed out?
+
+Answer:
+The Roll Back Driver button restores the previous version of a driver if the current one causes issues.
+In a VirtualBox environment, this option may be grayed out because no previous driver version has been installed for the virtual device. ↩️⚠️
+
+❓ What are the other available options?
+
+Answer:
+Other available options include:
+
+Update Driver
+
+Disable Device
+
+Uninstall Device
+
+These options allow you to manage and troubleshoot virtual hardware devices within the VirtualBox virtual machine. ⚙️🧪
