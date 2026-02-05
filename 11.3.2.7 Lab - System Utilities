@@ -1,0 +1,49 @@
+🧩 Part 1 – Custom Management Console
+
+📍 What was the path you use to navigate to the Event Viewer?
+
+🗂️ Management Tools > 🖥️ Computer Management > 🧰 System Tools > 📊 Event Viewer
+
+🎨 Part 2 – Registry Editor
+
+🖼️ What is the background picture?
+
+🌄 The default Windows 11 background image.
+
+🔵 What is the data value of the Background (blue color)?
+
+🔢 0 0 255
+
+
+📄 What is the data value of the Background in BlueBKG.reg?
+
+🔢 0 0 255
+
+
+🔴 What is the data value of the Background after changing it to red?
+
+🔢 255 0 0
+
+
+📥 What is the data value of the Background after importing BlueBKG.reg?
+
+🔢 0 0 255
+
+
+🎨 What is the color of the desktop (after import)?
+
+🔵 Blue
+
+🔄 What is the color of the desktop (after restart)?
+
+🔵 Blue
+
+🧠 Reflection Questions
+
+🌐 Why would it be beneficial to add snap-ins to the MMC for other computers on the network?
+
+🧑‍💻 It allows centralized and remote management of multiple computers from one console.
+
+⚙️ After restarting the computer, why was the desktop color changed?
+
+🗃️ Because Windows applies registry settings during system startup.
