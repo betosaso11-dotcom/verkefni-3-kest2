@@ -1,0 +1,83 @@
+🧩 Part 2 – Display command help
+
+❓ What happens when you press Enter instead of the spacebar when using help | more?
+➡️ Answer: It moves down one line instead of one full page.
+
+🧩 Command Functions
+
+❓ CD
+➡️ Answer: Changes the current directory.
+
+❓ CHKDSK
+➡️ Answer: Checks a disk for errors and displays a status report.
+
+❓ COPY
+➡️ Answer: Copies one or more files to another location.
+
+❓ DEL
+➡️ Answer: Deletes one or more files.
+
+❓ DIR
+➡️ Answer: Displays a list of files and folders in a directory.
+
+❓ DISKPART
+➡️ Answer: Manages disks, partitions, and volumes.
+
+❓ EXIT
+➡️ Answer: Exits the command prompt.
+
+❓ FORMAT
+➡️ Answer: Formats a disk for use with Windows.
+
+❓ GPRESULT
+➡️ Answer: Displays Group Policy information for a user or computer.
+
+❓ MD
+➡️ Answer: Creates a new directory.
+
+❓ TASKLIST
+➡️ Answer: Displays a list of currently running processes.
+
+❓ RD
+➡️ Answer: Removes a directory.
+
+❓ ROBOCOPY
+➡️ Answer: Copies files and directories with advanced options.
+
+❓ SHUTDOWN
+➡️ Answer: Shuts down or restarts the computer.
+
+❓ XCOPY
+➡️ Answer: Copies files and directories, including subdirectories.
+
+🧩 MD Command Questions
+
+❓ How would you create these folders C:\Users\ITEUser\a\b\c if your current directory is C:\Users\ITEUser?
+➡️ Answer:
+
+md a\b\c
+
+
+❓ What command would you use to verify the creation of the nested directories?
+➡️ Answer:
+
+dir
+
+🧩 Command Prompt Usage
+
+❓ What command did you use to clear the screen?
+➡️ Answer:
+
+cls
+
+
+❓ What is the last command that you have used? (F7)
+➡️ Answer:
+
+cls
+
+
+❓ What is the last command? (Up arrow)
+➡️ Answer:
+
+cls
