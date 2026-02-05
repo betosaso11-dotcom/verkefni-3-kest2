@@ -1,0 +1,81 @@
+🧩 Part 1 – System Information
+
+🧠 Processor:
+
+AMD Ryzen 5 8645HS w/ Radeon 760M
+
+💾 BIOS Version/Date:
+
+innotek GmbH virtualbox, 12/1/2006
+
+🧠 Total Physical Memory:
+
+🧮 3.98 GB RAM
+
+🔌 DMA channels and device using the resources:
+
+🖥️ DMA channels are used by system devices such as the virtual disk controller and network adapter.
+
+🌐 Network Adapter Name:
+
+🌍 Microsoft Kernel Debug Network adapter
+
+🔗 Network Adapter Type:
+
+🔌 not available 
+
+🚀 Where are startup applications listed?
+
+📂 Software Environment > Startup Programs
+
+⚙️ Part 2 – System Configuration (msconfig)
+
+▶️ What are the startup options?
+
+🔹 Normal startup
+🔹 Diagnostic startup
+🔹 Selective startup
+
+🛠️ Can you enable and disable services in the Services tab?
+
+✅ Yes
+
+🧰 What can you do in the Tools tab?
+
+🛠️ Access and launch advanced system tools for troubleshooting and diagnostics.
+
+🎮 Part 3 – DirectX Diagnostic Tool (dxdiag)
+
+📋 What does this tool report?
+
+🧾 System information, DirectX version, and hardware details.
+
+🖥️ What information is listed on the Display tab?
+
+🎨 Graphics card details, driver version, and display memory.
+
+🔊 What information is listed on the Sound tab?
+
+🔈 Audio device information and drivers.
+
+⌨️ What information is listed on the Input tab?
+
+🎮 Connected input devices such as keyboard and mouse.
+
+➕ Additional tabs:
+
+📡 Network
+
+📡 What information is listed on these extra tabs?
+
+🌐 Network and connectivity-related information.
+
+🧠 Reflection Questions
+
+❓ Why is it beneficial to turn off a service?
+
+🚀 To improve system performance and reduce resource usage.
+
+❓ When would you use the Startup tab?
+
+🛑 To manage or disable programs that run when Windows starts.
