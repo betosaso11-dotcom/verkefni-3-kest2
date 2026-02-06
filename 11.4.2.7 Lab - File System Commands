@@ -1,0 +1,75 @@
+🧩 Part 2: Create and change directories
+❓ What is the current directory?
+
+✅ Answer:
+C:\Users\vboxuser
+
+❓ Which folder are you in now?
+
+✅ Answer:
+C:\Users\vboxuser\ITEfolder3
+
+❓ What command or commands did you use to create the nested folders?
+
+✅ Answer:
+
+md ITEfolder4\ITEfolder5
+
+
+
+❓ After issuing the cd .. command, what is your directory now?
+
+✅ Answer:
+C:\Users\ITEUser\ITEfolder3
+
+❓ What would be the current directory if you issue cd .. at
+
+C:\Users\ITEUser\ITEfolder3\ITEfolder4?
+✅ Answer:
+C:\Users\ITEUser\ITEfolder3
+
+🧩 Part 4: Copy, move, rename, delete files
+❓ What single command would you use to delete all the files with doc2 in the filename?
+
+✅ Answer:
+
+del doc2*
+
+❓ What command would you use to delete all the files in the directory?
+
+✅ Answer:
+
+del *.*
+
+🧩 Part 5: xcopy and robocopy
+❓ What option allows you to copy all the files and directories, including empty directories?
+
+✅ Answer:
+
+/E
+
+🧩 Part 6: Delete directories
+❓ Were you able to delete the directory ITEfolder1 using rd ITEfolder1? Explain.
+
+✅ Answer:
+No, because the directory is not empty.
+Windows does not allow deleting non-empty directories without a switch.
+
+❓ What switch allows the deletion of a non-empty directory?
+
+✅ Answer:
+
+/S
+
+🧠 Reflection Question
+❓ What are the advantages of using CLI vs. GUI?
+
+✅ Answer:
+
+CLI is faster for experienced users
+
+Uses fewer system resources
+
+Allows automation with scripts
+
+Gives more control and precision
