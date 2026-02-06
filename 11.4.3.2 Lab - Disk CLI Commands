@@ -1,0 +1,49 @@
+🧩 Lab – Disk CLI Commands
+🔹 Part 1 – chkdsk
+❓ What is the option to fix errors on the drive?
+
+✅ Answer:
+
+/F
+
+❓ What is the option to force the volume to dismount first if necessary?
+
+✅ Answer:
+
+/X
+
+❓ What is the option to locate bad sectors and recover readable information?
+
+✅ Answer:
+
+/R
+
+❓ What happened? Explain.
+
+✅ Answer:
+The drive could not be locked because it is currently in use. Windows asked to schedule the disk check for the next system restart.
+
+❓ What is the file system of the drive?
+
+✅ Answer:
+
+NTFS
+
+🧩 Part 2 – DiskPart
+❓ How many partitions are on the disk?
+
+✅ Answer:
+
+3 partitions
+
+❓ What option is used to determine the maximum number of bytes that the volume can be shrink by?
+
+✅ Answer:
+
+QUERYMAX
+
+❓ What is the maximum number of reclaimable bytes?
+
+✅ Answer:
+
+1314 MB
