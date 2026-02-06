@@ -1,0 +1,48 @@
+🧩 Part 1: Task CLI Commands
+1️⃣ What command would you use to display the results of tasklist one page at a time?
+tasklist | more
+
+2️⃣ What is the option to list the modules that are associated with a task?
+/M
+
+3️⃣ What command would you use to find all the tasks that use the module oleaut32.dll?
+tasklist /M oleaut32.dll
+
+
+Examples of tasks that use oleaut32.dll:
+explorer.exe, svchost.exe
+
+4️⃣ What command would you use to find out all the tasks that are associated with your username?
+tasklist /FI "USERNAME eq ITEUser"
+
+5️⃣ What command would you use to find out all the processes that have been running for more than 1 hour and 40 minutes?
+tasklist /FI "CPUTIME gt 01:40:00"
+
+🧩 Part 1: taskkill Command
+6️⃣ What command would you use if you wanted to terminate all process owned by a particular user?
+taskkill /FI "USERNAME eq ITEUser"
+
+🧩 Part 2: System CLI Commands
+7️⃣ What option would you use if you only wanted to scan the integrity of all the protected system files?
+/verifyonly
+
+8️⃣ What would you add to the command so you can view the output one page at a time?
+| more
+
+🧩 Part 3: shutdown Command
+9️⃣ Enter the command to log off your computer.
+shutdown /l
+
+🔟 Shut down the computer in 120 seconds – What warning message did you see?
+
+Command:
+
+shutdown /s /t 120
+
+
+Warning message:
+
+Windows will shut down in 120 seconds.
+
+1️⃣1️⃣ What command would you use to abort the shutdown?
+shutdown /a
