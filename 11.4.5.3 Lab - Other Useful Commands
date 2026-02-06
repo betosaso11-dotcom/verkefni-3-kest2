@@ -1,0 +1,61 @@
+🧩 Part 1: The Group Policy CLI
+
+🔹 Step 1: gpupdate
+
+Command used to review syntax and options:
+
+gpupdate /?
+
+
+Command to force update of all Group Policy settings:
+
+gpupdate /force
+
+🔹 Step 2: gpresult
+
+Command to review syntax and options:
+
+gpresult /?
+
+
+Command to display the Resultant Set of Policy (RSoP) summary data:
+
+gpresult /R
+
+
+Command to save the report in HTML format:
+
+gpresult /H GPReport.html
+
+🧩 Part 2: The net command
+🔹 Step 1: net user
+
+Command to review syntax and options:
+
+net user /?
+
+
+Command to list all user accounts on the computer:
+
+net user
+
+
+Command to view settings for a specific user (example ITEUser):
+
+net user ITEUser
+
+
+Command to add a new user (with admin privileges):
+
+net user User1 ITEPassword /add
+
+❓ When does the password expire?
+
+✅ Answer:
+
+Never
+
+
+Command to delete the user account:
+
+net user User1 /delete
